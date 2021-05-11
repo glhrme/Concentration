@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11817481264B25D10029A9A4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11817480264B25D10029A9A4 /* Card.swift */; };
+		11817483264B25E50029A9A4 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11817482264B25E50029A9A4 /* Concentration.swift */; };
 		11A89B8B2649D47900E8FAEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A89B8A2649D47900E8FAEB /* AppDelegate.swift */; };
 		11A89B8D2649D47900E8FAEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A89B8C2649D47900E8FAEB /* SceneDelegate.swift */; };
 		11A89B8F2649D47900E8FAEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A89B8E2649D47900E8FAEB /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11817480264B25D10029A9A4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		11817482264B25E50029A9A4 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		11A89B872649D47900E8FAEB /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A89B8A2649D47900E8FAEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11A89B8C2649D47900E8FAEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				11A89B8A2649D47900E8FAEB /* AppDelegate.swift */,
 				11A89B8C2649D47900E8FAEB /* SceneDelegate.swift */,
 				11A89B8E2649D47900E8FAEB /* ViewController.swift */,
+				11817480264B25D10029A9A4 /* Card.swift */,
+				11817482264B25E50029A9A4 /* Concentration.swift */,
 				11A89B902649D47900E8FAEB /* Main.storyboard */,
 				11A89B932649D47A00E8FAEB /* Assets.xcassets */,
 				11A89B952649D47A00E8FAEB /* LaunchScreen.storyboard */,
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A89B8F2649D47900E8FAEB /* ViewController.swift in Sources */,
+				11817483264B25E50029A9A4 /* Concentration.swift in Sources */,
 				11A89B8B2649D47900E8FAEB /* AppDelegate.swift in Sources */,
 				11A89B8D2649D47900E8FAEB /* SceneDelegate.swift in Sources */,
+				11817481264B25D10029A9A4 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -77,6 +77,60 @@
                                     <action selector="clickCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2uY-dz-BeL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAG-Oa-NnV">
+                                <rect key="frame" x="20" y="423" width="89" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92577177290000001" green="0.23690319060000001" blue="0.103286542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <connections>
+                                    <action selector="clickCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dud-n2-zpB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inm-bG-upO">
+                                <rect key="frame" x="163" y="423" width="89" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92577177290000001" green="0.23690319060000001" blue="0.103286542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <connections>
+                                    <action selector="clickCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I3z-rJ-u5S"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="try-eq-zCB">
+                                <rect key="frame" x="305" y="423" width="89" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92577177290000001" green="0.23690319060000001" blue="0.103286542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <connections>
+                                    <action selector="clickCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NBK-KR-STe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bVG-Ih-Kyh">
+                                <rect key="frame" x="163" y="600" width="89" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92577177290000001" green="0.23690319060000001" blue="0.103286542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <connections>
+                                    <action selector="clickCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cqc-kD-DkD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOo-7l-Ic7">
+                                <rect key="frame" x="305" y="600" width="89" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92577177290000001" green="0.23690319060000001" blue="0.103286542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <connections>
+                                    <action selector="clickCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5qn-zj-qn5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aqA-T1-HcX">
+                                <rect key="frame" x="20" y="600" width="89" height="152"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92577177290000001" green="0.23690319060000001" blue="0.103286542" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <connections>
+                                    <action selector="clickCard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X1U-8J-tkd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -89,6 +143,12 @@
                         <outletCollection property="cardButtons" destination="IWc-HN-dK4" collectionClass="NSMutableArray" id="dlt-jv-a0L"/>
                         <outletCollection property="cardButtons" destination="7aD-uh-dws" collectionClass="NSMutableArray" id="u7e-nc-gCc"/>
                         <outletCollection property="cardButtons" destination="apJ-h8-J0U" collectionClass="NSMutableArray" id="Ezt-hO-6z1"/>
+                        <outletCollection property="cardButtons" destination="tAG-Oa-NnV" collectionClass="NSMutableArray" id="M65-89-ILO"/>
+                        <outletCollection property="cardButtons" destination="inm-bG-upO" collectionClass="NSMutableArray" id="owl-7X-lLf"/>
+                        <outletCollection property="cardButtons" destination="try-eq-zCB" collectionClass="NSMutableArray" id="i0G-2g-prm"/>
+                        <outletCollection property="cardButtons" destination="aqA-T1-HcX" collectionClass="NSMutableArray" id="44X-CH-IK6"/>
+                        <outletCollection property="cardButtons" destination="bVG-Ih-Kyh" collectionClass="NSMutableArray" id="wc6-1r-2P5"/>
+                        <outletCollection property="cardButtons" destination="MOo-7l-Ic7" collectionClass="NSMutableArray" id="5f2-9w-DAl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
